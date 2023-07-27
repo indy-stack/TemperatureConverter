@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: linear-gradient(to left bottom, #ff00d4, #00ddff);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(23, 44, 44);
+}
+
+.container {
+    background: rgba(255, 255, 255, .3);
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    min-width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.heading {
+    font-size: 31px;
+}
+
+.temp-container {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 220px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    float: right;
+    outline: none; 
+    background: rgba(255, 255, 255, .3);
+    border-color: rgba(255, 255, 255, .5);
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: rgb(104, 91, 91);
+}

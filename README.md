@@ -1,6 +1,5 @@
 # Temperature Converter
-This is part of a tutorial that I followed online with some
-persona;l touches like the UI.
+This is part of a tutorial that I followed online while adding some personal touches to the UI.
 # What I learned
 During this tutorial I learned more about javascript functions
 as well as more Dom manipulation like changing each temperature
